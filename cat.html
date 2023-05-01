@@ -1,0 +1,45 @@
+Appliances
+Arts, Crafts & Sewing
+Automotive
+Baby
+Beauty & Personal Care
+Camera & Photo
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Computers & Accessories
+Electronics
+Grocery & Gourmet Food
+Health & Household
+Home & Kitchen
+Industrial & Scientific
+Kitchen & Dining
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Video Games
+
+<script>
+    document.getElementsByName('theRankInput')[0].value = 154;
+
+    document.getElementsByClassName('js-est-btn')[0].click()
+
+    document.querySelectorAll('li|[data-store="us"]').click()
+    
+    var values = [],
+        keys = Object.keys(localStorage),
+        i = keys.length;
+
+    while ( i-- ) {
+        values.push( localStorage.getItem(keys[i]) );
+    }
+    
+    var str = JSON.stringify(values)
+    let json = JSON.parse(Http.responseText)
+            document.getElementsByClassName('js-magic-result')[0].innerHTML = ''+ json.estSalesResult
+
+</script>

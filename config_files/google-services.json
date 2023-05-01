@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "75693436141",
+    "project_id": "roiscanner",
+    "storage_bucket": "roiscanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75693436141:android:ed989f6a996cb9d1fcb0e4",
+        "android_client_info": {
+          "package_name": "com.roiscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75693436141-jbdi0u3biit2sq3vm02f5tqffqc2a8gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAHiR6KXfsyHODIs9rtNDz-PLOrXR_swY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75693436141-jbdi0u3biit2sq3vm02f5tqffqc2a8gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
